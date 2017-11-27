@@ -14,7 +14,7 @@ function alienChecker(x, y, z) {
 	} if (( x + y + z == 10000) && y + z < 3000) {
 		console.log("We will not go quietly into the night. We will not vanish without a fight. TODAY WE CELEBRATE OUR INDEPENDANCE DAY!");
 
-	} else (( x + y + z < 10000)) {
+	} else if (( x + y + z < 10000)) {
 		console.log("You didn't do your math correctly, friend.");
 	}
 
